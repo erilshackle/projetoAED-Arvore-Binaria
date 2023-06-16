@@ -1,0 +1,111 @@
+[Project]
+FileName=Subject Manager.dev
+Name=Subject Manager
+Type=1
+Ver=2
+ObjFiles=
+Includes="H:\UNICV\1-2 AED\Projeto Final\Lab\include"
+Libs="H:\UNICV\1-2 AED\Projeto Final\Lab\src"
+PrivateResource=Subject_Manager_private.rc
+ResourceIncludes="H:\UNICV\1-2 AED\Projeto Final\Lab\resources"
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=0
+Icon=Subject Manager.ico
+ExeOutput=bin
+ObjectOutput=obj
+LogOutput=logs
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=Subject Manager.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=include,resources,src
+IncludeVersionInfo=1
+SupportXPThemes=0
+CompilerSet=3
+CompilerSettings=0000000100000000000000000
+UnitCount=6
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=2070
+CharsetID=1252
+CompanyName=Eril carvalho
+FileVersion=1.0.0.0
+FileDescription=Projeto final A.E.D desenvolvido por Erilando Carvalho.
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=subject manager
+ProductName=Subject Manager
+ProductVersion=1.0.0.0
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=main.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=include\student.h
+CompileCpp=0
+Folder=include
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=include\subject_tree.h
+CompileCpp=0
+Folder=include
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=src\student.c
+CompileCpp=0
+Folder=src
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=src\subject_tree.c
+CompileCpp=0
+Folder=src
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=resources\style.rc
+Folder=resources
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
